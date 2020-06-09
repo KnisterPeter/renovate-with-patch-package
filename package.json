@@ -1,0 +1,18 @@
+{
+  "name": "renovate-with-patch-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:KnisterPeter/renovate-with-patch-package.git",
+  "author": "Markus Wolf <mail@markus-wolf.de>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "react": "16.13.0"
+  },
+  "devDependencies": {
+    "patch-package": "^6.2.2",
+    "postinstall-postinstall": "^2.1.0"
+  }
+}
